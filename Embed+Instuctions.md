@@ -1,6 +1,6 @@
 
 jsDelivr Src:  
-https://cdn.jsdelivr.net/gh/CharHtw/JavascriptAndHTML@Neko-Versions-and-Instructions/Neko.js  
+https://cdn.jsdelivr.net/gh/CharHtw/JavascriptAndHTML@refs/heads/Neko-Versions-and-Instructions/Neko.js  
   
 To create a new cat, use new Neko(x,y,speed,type,custom);  
 Types:  
