@@ -113,7 +113,7 @@ class Neko {
     } else {
       this.div.style.backgroundImage = `url('data:image/png;base64,${Base64Img[this.type]}')`;
     }
-    this.div.style.position = "absolute";
+    this.div.style.position = "fixed";
     this.div.style.zIndex = "9998";
     this.div.style.backgroundPosition = Base64ImgOffsets.idle;
     this.div.style.pointerEvents = "none";
