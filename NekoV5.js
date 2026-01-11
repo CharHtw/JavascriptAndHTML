@@ -12,8 +12,6 @@ menu.style.display = "none";
 menu.style.position = "absolute";
 menu.style.zIndex = "9999";
 if (isDarkMode) {
-  document.body.style.backgroundColor = "#242222";
-  document.body.style.color = "#FFFFFF";
   menu.style.backgroundColor = "#1C1A1A";
   menu.style.color = "#FFFFFF";
 } else {
