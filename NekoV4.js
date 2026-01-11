@@ -23,8 +23,8 @@ if (isDarkMode) {
 document.body.appendChild(menu);
 
 document.addEventListener("mousemove", function (e) {
-  mouseX = e.clientX;
-  mouseY = e.clientY - 20;
+  mouseX = e.pageX;
+  mouseY = e.pageY - 20;
 });
 document.addEventListener("contextmenu", function (e) {
   e.preventDefault();
