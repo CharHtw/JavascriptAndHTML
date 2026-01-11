@@ -102,7 +102,7 @@ class Neko {
     this.type = type || "Original";
     this.custom = custom || false;
     this.div = document.createElement("div");
-    document.body.appendChild(this.div);
+    document.documentElement.appendChild(this.div);
     this.div.style.willChange = `transform`;
     this.div.style.imageRendering = `pixelated`;
     this.div.style.width = "20px";
