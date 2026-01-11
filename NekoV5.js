@@ -18,7 +18,7 @@ if (isDarkMode) {
   menu.style.backgroundColor = "#FFFFFF";
   menu.style.color = "#000000";
 }
-document.body.appendChild(menu);
+document.documentElement.appendChild(menu);
 
 document.addEventListener("mousemove", function (e) {
   mouseX = e.pageX;
@@ -111,8 +111,9 @@ class Neko {
     } else {
       this.div.style.backgroundImage = `url('data:image/png;base64,${Base64Img[this.type]}')`;
     }
+    this.div.style.transform=`none`;
     this.div.style.position = "fixed";
-    this.div.style.zIndex = "9998";
+    this.div.style.zIndex = "2176802";
     this.div.style.backgroundPosition = Base64ImgOffsets.idle;
     this.div.style.pointerEvents = "none";
     this.speed = speed || 10;
